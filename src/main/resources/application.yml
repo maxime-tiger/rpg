@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rpg
+
+  datasource:
+    host: 127.0.0.1
+    port: 3306
+    dbname: rpg
+    username: admin
+    password: admin
+    url: jdbc:mariadb://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.dbname}
+
