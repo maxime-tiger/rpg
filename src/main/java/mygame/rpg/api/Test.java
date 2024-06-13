@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = ApiConstants.PREFIX + "/test", produces = MediaType.APPLICATION_JSON_VALUE)
-public class test {
+public class Test {
 
 	@GetMapping
 	public ResponseEntity<?> test() {
